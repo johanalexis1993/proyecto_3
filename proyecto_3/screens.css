@@ -1,0 +1,20 @@
+@media screen and (min-width: 576px) {
+  .gallery {
+    grid-template-columns: repeat(1, fr);
+  }
+}
+@media screen and (min-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 992px) {
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}

@@ -1,0 +1,7 @@
+.gallery {
+  padding: 0 1rem;
+  display: grid;
+  grid-auto-rows: 200px;
+  gap: 1rem;
+  grid-auto-flow: row dense;
+}
